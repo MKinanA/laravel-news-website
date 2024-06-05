@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulir dengan Flowbite</title>
+    <title>News</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css">
 </head>
 <body class="font-sans antialiased dark:bg-gray-900">
@@ -14,25 +14,25 @@
             @csrf
             @method('post')
             <div>
-                <label for="image" class="block text-gray-700 dark:text-white">Gambar</label>
+                <label for="image" class="block text-gray-700 dark:text-white">Image</label>
                 <input type="file" id="image" name="image" class="block w-full mt-1 dark:text-white" required>
             </div>
 
 
             <div>
-                <label for="title" class="block text-gray-700 dark:text-white">Judul</label>
+                <label for="title" class="block text-gray-700 dark:text-white">Title</label>
                 <input type="text" id="title" name="title" class="block w-full mt-1" required>
             </div>
 
 
             <div>
-                <label for="description" class="block text-gray-700 dark:text-white">Deskripsi</label>
+                <label for="description" class="block text-gray-700 dark:text-white">Description</label>
                 <textarea id="description" name="description" class="block w-full mt-1"></textarea>
             </div>
 
 
             <div>
-                <label for="content" class="block text-gray-700 dark:text-white">Konten</label>
+                <label for="content" class="block text-gray-700 dark:text-white">Content</label>
                 <textarea id="content" name="content" class="block w-full mt-1"></textarea>
             </div>
 
